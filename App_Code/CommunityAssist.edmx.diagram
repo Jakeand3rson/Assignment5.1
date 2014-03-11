@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="aa03d44ff65d4d06903a6c355c47aee9" Name="Diagram1">
+        <EntityTypeShape EntityType="CommunityAssistModel.CommunityService" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CommunityAssistModel.Donation" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CommunityAssistModel.Person" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CommunityAssistModel.PersonAddress" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CommunityAssistModel.PersonContact" Width="1.5" PointX="3" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="CommunityAssistModel.ServiceGrant" Width="1.5" PointX="6" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="CommunityAssistModel.FK__ServiceGr__Servi__24927208" ManuallyRouted="false" />
+        <AssociationConnector Association="CommunityAssistModel.FK__Donation__Person__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="CommunityAssistModel.FK__PersonAdd__Perso__1273C1CD" ManuallyRouted="false" />
+        <AssociationConnector Association="CommunityAssistModel.FK__PersonCon__Perso__173876EA" ManuallyRouted="false" />
+        <AssociationConnector Association="CommunityAssistModel.FK__ServiceGr__Perso__239E4DCF" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
